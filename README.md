@@ -51,16 +51,19 @@ hyperspectral-denoising/
 ```
 /path/to/hyspecnet-11k/
 ├── patches/
-│   ├── scene_0001/
-│   │   ├── patch_0001/
-│   │   │   ├── 0001-DATA.npy
-│   │   │   └── metadata.json
-│   │   ├── patch_0002/
+│   ├── ENMAP01-____L2A-DT0000004950_20221103T162438Z_001_V010110_20221118T145147Z/
+│   │   ├── ENMAP01-____L2A-DT0000004950_20221103T162438Z_001_V010110_20221118T145147Z-Y01460273_X03110438/
+│   │   │   ├── ENMAP01-____L2A-DT0000004950_20221103T162438Z_001_V010110_20221118T145147Z-Y01460273_X03110438-DATA.npy
+│   │   │   ├── ENMAP01-____L2A-DT0000004950_20221103T162438Z_001_V010110_20221118T145147Z-Y01460273_X03110438-QL_PIXELMASK.TIF
+│   │   │   └── ...
+│   │   ├── ENMAP01-____L2A-DT0000004950_20221103T162438Z_001_V010110_20221118T145147Z-Y01460273_X04390566/
+│   │   │   └── ...
 │   │   └── ...
-│   ├── scene_0002/
+│   ├── ENMAP01-____L2A-DT0000004950_20221103T162443Z_002_V010110_20221118T190246Z/
+│   │   └── ...
 │   └── ...
-└── metadata/
-    └── ...
+├── patch_visuals/
+└── splits/
 ```
 
 4. When running the training script, specify the path to the dataset root directory:
