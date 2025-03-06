@@ -178,6 +178,6 @@ If you use this code in your research, please cite:
   year = {2025},
   publisher = {GitHub},
   journal = {Gitlab repository},
-  howpublished = {\url{https://git.tu-berlin.de/rsim/cv4rs-2024-winter/self-supervised-learning-for-hyperspectral-image-analysis/-/tree/akram?ref_type=heads}}
+  howpublished = {\url{https://github.com/akramsalim/hyperspectral-denoising/tree/main}}
 }
 ```
