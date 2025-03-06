@@ -173,7 +173,7 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @misc{reference,
-  author = {Akram Al-Saffah},
+  author = {Akram },
   title = {Self-Supervised Learning for Hyperspectral Image Analysis},
   year = {2025},
   publisher = {GitHub},
